@@ -1,0 +1,188 @@
+/* &display=swap  */
+@import "null.css";
+
+
+
+
+/* ----------------ПОДКЛЮЧЕНИЕ ШРИФИТОВ 1-ая страница------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,900italic&display=swap");
+
+@font-face {
+    font-family: "MuseoSansCyrl"; 
+    src: url("../fonts/MuseoSansCyrl-100.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-100.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "MuseoSansCyrl"; 
+    src: url("../fonts/MuseoSansCyrl-300.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-300.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "MuseoSansCyrl"; 
+    src: url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/*  ПОДКЛЮЧЕННЫЕ ШРИФТЫ 
+
+    font-family: "Roboto", sans-serif;      link google fonts - 300 400 700
+    font-family: "Asul", sans-serif;        import google fonts 700
+    font-family: "Montserrat", sans-serif;   import через плагин 100, 900 italic
+    font-family: "MuseoSansCyrl", sans-serif;   локально  шрифта которого нет в google fonts 100, 300
+*/
+
+
+
+
+/* ----------------Верстка 1-ая страница------------------------------- */
+
+body {
+     font-family: "Roboto", "Asul", "Montserra", "MuseoSansCyrl" ; /*sans-serif; */
+     font-weight: 400;
+}
+
+
+.wrap {
+    text-align: center;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    text-shadow: -10px -15px 5px #000;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+nav a {
+    color: #1D7373;
+    font-weight: 700;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+.it-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+.it-title span {
+    color: lime;
+    text-decoration: line-through;
+}
+
+.wrap-photo {
+    text-align: center;
+}
+
+
+
+.it-under-title {
+    font-family: "Asul";
+    font-weight: 700;
+    color: #A13DD5;
+    font-size: 40px;
+    text-align: right;
+}
+.it-text {
+    color: #7608AA;
+    font-size: 18px;
+    text-align: right;
+    line-height: 1.8;
+}
+
+.under-title {
+    font-family: "MuseoSansCyrl";
+    font-weight: 700;
+    color: #00CC00;
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+.it-text-under {
+    color: lightseagreen;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.figma-wrap {
+    text-align: center;
+}
+.figma {
+    color: red;
+    font-size: 60px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+/* ---------ВТОРАЯ СТРАНИЦА--------------- */
+
+/* ----------------ПОДКЛЮЧЕНИЕ ШРИФИТОВ 2-ая страница------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+
+/*  ПОДКЛЮЧЕННЫЕ ШРИФТЫ 
+
+    font-family: "Lato", sans-serif;      link google fonts -  400 700 900
+
+*/
+
+
+.container {
+    font-family: "Lalo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #424551;
+}
+
+.contaner-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+
+}
+
+.container-under-title {
+    font-weight: 700;
+    line-height: 1.5;
+    color: #1E212C;
+}
+
+.container-text {
+    font-size: 16px;
+    line-height: 1.6;
+
+
+}
+
+.menu-container {
+    text-align: left;
+    font-size: 16px;
+}
